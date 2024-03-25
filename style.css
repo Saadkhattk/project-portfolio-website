@@ -1,0 +1,17 @@
+.image{
+    width: 100%;
+    height: 100%;
+   
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 100px;
+}
+body{
+    background-color:rgba(97, 83, 221, 0.541);
+}
+h1{
+    color: rgb(40, 40, 53);
+}
