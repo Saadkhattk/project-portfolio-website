@@ -1,0 +1,73 @@
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+table {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+
+}
+
+tr :hover {
+    background-color: rgb(64, 226, 43);
+}
+
+body {
+    background-color: rgb(97, 83, 221, 0.541)
+}
+
+/* Here I'm demonstrate font styles */
+@font-face {
+    font-family: myFirstFont;
+    src: url('./fonts/Lobster-Regular.ttf');
+}
+
+h1 {
+    font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url('./fonts/GreatVibes-Regular.ttf');
+}
+
+h2 {
+    font-family: mySecondFont;
+}
+
+#pro_1 {
+    line-height: 25px;
+}
+
+#pro_2 {
+    line-height: 25px;
+}
+
+#pro_3 {
+    line-height: 25px;
+}
+
+h1 {
+    text-shadow: 3px 3px #15eb39;
+}
+
+#pro_1::first-letter {
+    color: rgb(5, 5, 5);
+    font-size: 200%;
+}
+
+#pro_2::first-letter {
+    color: rgb(5, 5, 5);
+    font-size: 200%;
+}
+
+#pro_3::first-letter {
+    color: rgb(5, 5, 5);
+    font-size: 200%;
+}

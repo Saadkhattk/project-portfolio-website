@@ -1,3 +1,22 @@
+table,
+td,
+tr,
+th {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+tr :hover {
+    background-color: rgb(76, 153, 46);
+}
+
+
 .image {
     width: 100%;
     height: 100%;
@@ -16,12 +35,56 @@ body {
 }
 
 h1 {
-    color:rgb(20, 2, 2);
+    color: rgb(20, 2, 2);
 }
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.class_1, .class_2{
+
+.class_1,
+.class_2 {
     background-color: rgb(235, 244, 247);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('./fonts/Lobster-Regular.ttf');
+}
+
+h1 {
+    font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url('./fonts/GreatVibes-Regular.ttf');
+}
+
+h2 {
+    font-family: mySecondFont;
+}
+
+.cl_1,
+.cl_1,
+.Cl_1 {
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#id_paragraph {
+
+    line-height: 25px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+h1 {
+    text-shadow: 3px 3px #15eb39;
+}
+#id_paragraph::first-letter{
+    color: rgb(5, 5, 5);
+    font-size: 200%;
 }

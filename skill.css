@@ -1,0 +1,63 @@
+table,
+td,
+tr,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+table {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+tr :hover {
+    background-color: rgb(110, 226, 43);
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(97, 83, 221, 0.541);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url('./fonts/Lobster-Regular.ttf');
+}
+h1{
+    font-family: myFirstFont;
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url('./fonts/GreatVibes-Regular.ttf');
+}
+h2{
+    font-family: mySecondFont;
+}
+#id_4{
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#id_5{
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#id_6{
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#id_7{
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
